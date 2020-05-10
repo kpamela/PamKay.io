@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import Typewriter from 'typewriter-effect';
-
+import pamIcon from '../images/pam.jpg';
 
 function HomePage() {
   return (
@@ -18,7 +18,7 @@ function HomePage() {
         >
           Learn React
         </a>
-        <img class="ui medium circular image" src="./images/pam.jpg"/>
+        <img className="ui medium circular image" src='../images/pam.jpg'/>
         I am
         <Typewriter
           onInit={(typewriter) => {
