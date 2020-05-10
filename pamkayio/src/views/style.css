@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:900|Lato:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900|Lato:200');
 
 .image-container{
   float: right;
-    padding-right: 10%;
+  padding-right: 10%;
 }
 
 .image{
-  height: 30vmin;
+  height: 20vw;
   border-radius: 47%;
   margin-bottom: 50px;
 }
@@ -20,15 +20,15 @@
 
 .HomePage-title{
   font-family: 'Montserrat', sans-serif;
-  font-size: calc(40px + 2vmin);
+  font-size: 4vw;
   color: #1F1512;
 }
 
 .HomePage-typewriter{
   font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: calc(30px + 2vmin);
-  display:inline-flex !important;
+  font-size: 3vw;
+  display:flex !important;
   flex-wrap: wrap;
 }
 
@@ -41,4 +41,6 @@
 .HomePage-buttons-container{
   /*justify-content: space-between;*/
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }

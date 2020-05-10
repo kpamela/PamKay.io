@@ -4,6 +4,7 @@ import Typewriter from 'typewriter-effect';
 import pamIcon from '../images/pam.jpg';
 import Button from "../components/Button/Button.js";
 import Grid from '@material-ui/core/Grid';
+import ScaleText from "react-scale-text";
 
 
 
@@ -11,12 +12,12 @@ function HomePage() {
   return (
     <div className="HomePage">
       <Grid container spacing={3}>
-        <Grid xs={6}>
+        <Grid xs>
           <div className = "image-container">
             <img className = "image" src={pamIcon}/>
           </div>
         </Grid>
-        <Grid xs={6}>
+        <Grid xs>
             <p className= "HomePage-title">
               Hey! <br />I'm Pam
             </p>
@@ -24,8 +25,8 @@ function HomePage() {
              I do{'\u00A0'}
               <Typewriter
                 options={{
-                  strings: ['<span style="color:#6AA65B";> UX / UI design </span>',
-                  '<span style="color:#37BC16;"> web development </span>',
+                  strings: ['<span style="color:#6AA65B";> UX/UI design </span>',
+                  '<span style="color:#37BC16;"> web dev </span>',
                   '<span style=";color:#9A6FE4;"> photography </span>',
                   '<span style="display:inline;color:#636BD9;"> videography </span>' ],
                   autoStart: true,
@@ -36,6 +37,7 @@ function HomePage() {
                 }}
               />
             </div>
+
             <div className="HomePage-regular-text">
               I'm building one hell of a story (this site is under construction) but you can visit the following links meanwhile. <br/>
             </div>
