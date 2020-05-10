@@ -39,7 +39,7 @@ function HomePage() {
             </div>
 
             <div className="HomePage-regular-text">
-              I'm building one hell of a story (this site is under construction) but you can visit the following links meanwhile. <br/>
+              I'm building one hell of a story (this site is under construction) but you can visit the following links meanwhile. <br/><br/>
             </div>
             <div className="HomePage-buttons-container">
               <a href="https://www.linkedin.com/in/pamela-khouri"> <Button size="md" skeleton>  Linkedin </Button></a>

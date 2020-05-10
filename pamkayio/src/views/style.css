@@ -6,7 +6,7 @@
 }
 
 .image{
-  height: 20vw;
+  height: 18vw;
   border-radius: 47%;
   margin-bottom: 50px;
 }
@@ -16,12 +16,15 @@
   padding: 20vh;
   min-height: 100vh;
   display:flex;
+  background-image:url(../images/triangles.svg);
+  background-size: cover;
 }
 
 .HomePage-title{
   font-family: 'Montserrat', sans-serif;
   font-size: 4vw;
   color: #1F1512;
+  line-height: normal;
 }
 
 .HomePage-typewriter{

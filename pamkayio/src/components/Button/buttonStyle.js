@@ -190,8 +190,8 @@ const buttonStyle = {
   },
   skeleton: {
     background: "transparent",
-    color: "#707070",
-    border: "1px solid #707070",
+    color: "#FFFFFF",
+    border: "0.5px solid #FFFFFF",
     borderRadius: "50px",
     boxShadow: "none",
     "&:hover,&:focus": {
