@@ -1,7 +1,4 @@
-.App {
-  text-align: center;
-}
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900|Lato:100');
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,8 +10,8 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.HomePage-header {
+  background-color: #EAEAEA;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,7 +21,7 @@
   color: white;
 }
 
-.App-link {
+.HomePage-link {
   color: #61dafb;
 }
 
@@ -35,4 +32,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.HomePage {
+  display: grid;
+  grid-template: 150px / auto auto auto;;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.HomePage > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.HomePage-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(40px + 2vmin);
+  color: #1F1512;
+  text-align:left;
+}
+
+.HomePage-typewriter{
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(30px + 2vmin);
+  display: flex;
+  text-align:left;
+}
+
+.HomePage-regular-text{
+  font-family: 'Lato', sans-serif;
+  color: #707070;
 }
