@@ -1,17 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:900|Lato:100');
 
-.HomePage-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .image-container{
   float: right;
+    padding-right: 10%;
 }
 
 .image{
@@ -21,28 +12,33 @@
 }
 
 .HomePage {
-  background-color: rgba(233, 232, 227, 0.8);
-  padding: 6vh;
+  background-color: rgba(207, 216, 214, 0.8);
+  padding: 20vh;
+  min-height: 100vh;
+  display:flex;
 }
 
 .HomePage-title{
   font-family: 'Montserrat', sans-serif;
   font-size: calc(40px + 2vmin);
   color: #1F1512;
-  text-align:left;
 }
 
 .HomePage-typewriter{
   font-family: 'Montserrat', sans-serif;
+  color: white;
   font-size: calc(30px + 2vmin);
-  display: flex;
-  text-align:left;
+  display:inline-flex !important;
+  flex-wrap: wrap;
 }
 
 .HomePage-regular-text{
   font-family: 'Lato', sans-serif;
   color: #707070;
   font-size: calc(3px + 2vmin);
-  align-items: flex-start;
-  justify-content: flex-start;
+}
+
+.HomePage-buttons-container{
+  /*justify-content: space-between;*/
+  display: flex;
 }
